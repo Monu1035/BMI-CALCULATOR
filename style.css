@@ -1,0 +1,67 @@
+.container {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.747);
+    font-size: medium;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results, #message {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 140px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #212121;
+    text-shadow: 2px 2px orange;
+    font-size: 20px;
+    
+  }
+  button:hover {
+    background-color: violet;
+
+  }
+  
+  h1 {
+    /* padding-left: 15px; */
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(rgb(235, 13, 13), rgb(105, 105, 196));
+    font-size: 50px;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;    
+  }  
+
+  h3 {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+p {
+  font-size: x-large;
+
+}
+  
